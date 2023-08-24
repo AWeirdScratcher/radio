@@ -33,3 +33,7 @@ pip install py-cord
 ```shell
 python3 main.py
 ```
+
+
+> [!WARNING]
+> Take a look at line 27 of `main.py`. If you're using `replit-ffmpeg` to install, change the path to `'opus/libopus.so'` in the `discord.opus.load_opus` block.
